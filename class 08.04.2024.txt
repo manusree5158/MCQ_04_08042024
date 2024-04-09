@@ -1,0 +1,64 @@
+1. Which of these class is superclass of every class in Java?
+a) String class
+b) Object class
+c) Abstract class
+d) ArrayList class
+
+Answer: b
+Explanation: Object class is superclass of every class in Java.
+
+2.What will be the output of the following Java program?
+    abstract class A 
+    {
+        int i;
+        abstract void display();
+    }    
+    class B extends A 
+    {
+        int j;
+        void display() 
+        {
+            System.out.println(j);
+        }
+    }    
+    class Abstract_demo 
+    {
+        public static void main(String args[])
+        {
+            B obj = new B();
+            obj.j=2;
+            obj.display();    
+        }
+    }
+a) 0
+b) 2
+c) Runtime Error
+d) Compilation Error
+
+Answer: b
+
+3.Which of these class relies upon its subclasses for complete implementation of its methods?
+a) Object class
+b) abstract class
+c) ArrayList class
+d) None of the mentioned
+
+Answer: b
+Explanation: None
+
+4. Which of these keywords cannot be used for a class which has been declared final?
+a) abstract
+b) extends
+c) abstract and extends
+d) none of the mentioned
+
+Answer: a
+
+5.Which of these keywords can be used to prevent inheritance of a class?
+a) super
+b) constant
+c) class
+d) final
+
+Answer: d
+Explanation: Declaring a class final implicitly declared all of its methods final, and makes the class inheritable.
