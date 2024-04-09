@@ -1,0 +1,48 @@
+1. What is true about private constructor?
+a) Private constructor ensures only one instance of a class exist at any point of time
+b) Private constructor ensures multiple instances of a class exist at any point of time
+c) Private constructor eases the instantiation of a class
+d) Private constructor allows creating objects in other classes
+
+Answer: a
+Object of private constructor can only be created within class. Private constructor is used in singleton pattern.
+
+
+2. What would be the behaviour if this() and super() used in a method?
+a) Runtime error
+b) Throws exception
+c) compile time error
+d) Runs successfully
+
+Answer: c
+this() and super() cannot be used in a method. This throws compile time error.
+
+3. What could be true about Class.getInstance() considering that it defines the getInstance() method?
+a) Class.getInstance calls the constructor
+b) Class.getInstance is same as new operator
+c) Class.getInstance needs to have matching constructor
+d) Class.getInstance creates object if class does not have any constructor
+
+Answer: d
+The method getInstance() can be used to create an object if the class doesn’t have any constructor.
+
+4.What would be behaviour if the constructor has a return type?
+a) Compilation error
+b) Runtime error
+c) Compilation and runs successfully
+d) Only String return type is allowed
+View Answer
+
+Answer: a
+Explanation: The constructor cannot have a return type. It should create and return new object. Hence it would give compilation error.
+
+5.What would be the behaviour if one parameterized constructor is explicitly defined, but no default constructor is provided?
+a) Compilation error
+b) Compilation succeeds
+c) Runtime error
+d) Compilation succeeds but at the time of creating object using default constructor, it throws compilation error
+View Answer
+
+Answer: d
+Explanation: The class compiles successfully. But the object creation of that class gives a compilation error.
+
